@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "CashControl.API.Controllers.BankStatementController",
+    "Method": "GetBankStatements",
+    "RelativePath": "api/bankStatements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CashControl.API.Models.BankStatementModel, CashControl.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CashControl.API.Controllers.BankStatementController",
+    "Method": "GetBankStatementById",
+    "RelativePath": "api/bankStatements/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CashControl.API.Models.BankStatementModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CashControl.API.Controllers.BankStatementController",
+    "Method": "CreateBankStatement",
+    "RelativePath": "api/bankStatements/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankStatement",
+        "Type": "CashControl.API.Models.BankStatementModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CashControl.API.Controllers.BankStatementController",
+    "Method": "DeleteBankStatement",
+    "RelativePath": "api/bankStatements/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CashControl.API.Controllers.BankStatementController",
+    "Method": "UpdateBankStatement",
+    "RelativePath": "api/bankStatements/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bankStatement",
+        "Type": "CashControl.API.Models.BankStatementModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
