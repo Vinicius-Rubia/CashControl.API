@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CashControl.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5be65a48ea4f64cbcf6d87c7b33404b026c60b86")]
 [assembly: System.Reflection.AssemblyProductAttribute("CashControl.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CashControl.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

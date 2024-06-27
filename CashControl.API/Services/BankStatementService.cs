@@ -23,9 +23,9 @@ namespace CashControl.API.Services
                 if (bankStatement.Count != 0)
                     return bankStatement;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception($"Ocorreu um erro ao buscar seus extratos bancários: {ex.Message}");
+                throw new Exception("Houve um erro ao buscar seus extratos bancários! Tente novamente mais tarde.");
             }
 
             return null;
@@ -40,9 +40,9 @@ namespace CashControl.API.Services
                 if (bankStatement != null)
                     return bankStatement;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception($"Ocorreu um erro ao buscar o extrato bancário: {ex.Message}");
+                throw new Exception("Houve um erro ao buscar seu extrato bancário! Tente novamente mais tarde.");
             }
 
             return null;
@@ -58,9 +58,9 @@ namespace CashControl.API.Services
                     await _context.SaveChangesAsync();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception($"Ocorreu um erro ao cadastrar seu extrato bancário: {ex.Message}");
+                throw new Exception("Houve um erro ao cadastrar seu extrato bancário! Tente novamente mais tarde.");
             }
         }
 
@@ -77,9 +77,9 @@ namespace CashControl.API.Services
                     return bankStatement;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception($"Ocorreu um erro ao buscar o extrato bancário: {ex.Message}");
+                throw new Exception("Houve um erro ao deletar seu extrato bancário! Tente novamente mais tarde.");
             }
 
             return null;
@@ -99,9 +99,9 @@ namespace CashControl.API.Services
                     return bankStatement;
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw new Exception($"Ocorreu um erro ao atualizar o extrato bancário: {ex.Message}");
+                throw new Exception("Houve um erro ao atualizar seu extrato bancário! Tente novamente mais tarde.");
             }
 
             return null;

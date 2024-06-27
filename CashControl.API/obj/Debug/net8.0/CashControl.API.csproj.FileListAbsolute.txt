@@ -134,3 +134,4 @@ C:\Users\negoc\Documents\DEV\CashControl\CashControl.API\obj\Debug\net8.0\CashCo
 C:\Users\negoc\Documents\DEV\CashControl\CashControl.API\obj\Debug\net8.0\CashControl.API.genruntimeconfig.cache
 C:\Users\negoc\Documents\DEV\CashControl\CashControl.API\obj\Debug\net8.0\ref\CashControl.API.dll
 C:\Users\negoc\Documents\DEV\CashControl\CashControl.API\obj\Debug\net8.0\CashCont.A5499493.Up2Date
+C:\Users\negoc\Documents\DEV\CashControl\CashControl.API\obj\Debug\net8.0\CashControl.API.sourcelink.json

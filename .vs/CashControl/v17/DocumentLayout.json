@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|c:\\users\\negoc\\documents\\dev\\cashcontrol\\cashcontrol.api\\controllers\\bankstatementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|c:\\users\\negoc\\documents\\dev\\cashcontrol\\cashcontrol.api\\cashcontrol.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\cashcontrol.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|C:\\Users\\negoc\\Documents\\DEV\\CashControl\\cashcontrol.api\\controllers\\bankstatementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\controllers\\bankstatementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|c:\\users\\negoc\\documents\\dev\\cashcontrol\\cashcontrol.api\\services\\bankstatementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|C:\\Users\\negoc\\Documents\\DEV\\CashControl\\cashcontrol.api\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|C:\\Users\\negoc\\Documents\\DEV\\CashControl\\cashcontrol.api\\services\\bankstatementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{887194AD-A9E4-4038-9921-345A29945740}|CashControl.API\\CashControl.API.csproj|solutionrelative:cashcontrol.api\\services\\bankstatementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,32 +26,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BankStatementController.cs",
-              "DocumentMoniker": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Controllers\\BankStatementController.cs",
-              "RelativeDocumentMoniker": "CashControl.API\\Controllers\\BankStatementController.cs",
-              "ToolTip": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Controllers\\BankStatementController.cs",
-              "RelativeToolTip": "CashControl.API\\Controllers\\BankStatementController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T05:02:06.774Z",
+              "Title": "CashControl.API.csproj",
+              "DocumentMoniker": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\CashControl.API.csproj",
+              "RelativeDocumentMoniker": "CashControl.API\\CashControl.API.csproj",
+              "ToolTip": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\CashControl.API.csproj",
+              "RelativeToolTip": "CashControl.API\\CashControl.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-24T16:27:11.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BankStatementController.cs",
+              "DocumentMoniker": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Controllers\\BankStatementController.cs",
+              "RelativeDocumentMoniker": "CashControl.API\\Controllers\\BankStatementController.cs",
+              "ToolTip": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Controllers\\BankStatementController.cs",
+              "RelativeToolTip": "CashControl.API\\Controllers\\BankStatementController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:31:44.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CashControl.API\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CashControl.API\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T13:31:39.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BankStatementService.cs",
               "DocumentMoniker": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Services\\BankStatementService.cs",
               "RelativeDocumentMoniker": "CashControl.API\\Services\\BankStatementService.cs",
               "ToolTip": "C:\\Users\\negoc\\Documents\\DEV\\CashControl\\CashControl.API\\Services\\BankStatementService.cs",
               "RelativeToolTip": "CashControl.API\\Services\\BankStatementService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-24T02:42:52.735Z"
+              "WhenOpened": "2024-04-12T13:31:36.616Z"
             }
           ]
         }
